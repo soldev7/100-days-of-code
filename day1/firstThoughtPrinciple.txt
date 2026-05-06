@@ -1,0 +1,48 @@
+Use first thought principle
+->break it down and connect how its done
+
+
+Day 1: Intro to JavaScript
+Things I Learned Today
+Why JavaScript was created — At the time, most programming languages had complex syntax. Web developers only knew HTML and CSS, and learning resources were very limited. JS was made to be easy and forgiving.
+
+Security issue with C++ — Web devs didn't use C++ because it could access the system without permission. It could read private files or delete folders. JavaScript was created to run inside a safe "sandbox" with limited access (only keyboard and mouse — everything else needs permission).
+
+Hardware limitations — Computers in the 1990s had only 4–6 MB of RAM. Other languages needed heavy compilers and runtimes. JS was made lightweight for the web.
+
+How JavaScript runs — Browsers have C++ code inside them (called engines) that take JavaScript as input and show output on screen. Google's engine is called V8. It's already compiled to machine code, so JS doesn't need a separate compiler. Different systems have different machine code, but the engine handles that.
+
+Running JS outside the browser — JS only runs in browsers because of engines like V8. To run JS in editors like VS Code, we need Node.js — an open-source, cross-platform runtime that lets JS run outside the browser.
+
+1 Thing That Blew My Mind
+JavaScript was created because C++ had security issues — but JS itself runs on a C++ engine (V8). They used C++ to make a safe sandbox that takes JS as input and gives output. That's genius.
+
+Code I Wrote
+js
+
+Copy
+
+Download
+console.log('Hello World!');
+What I'd Explain to a Beginner
+JavaScript was made to make web pages interactive.
+
+Back in the 1990s, developers built websites with only HTML and CSS. Other languages like C, C++, and Java existed — but why create JavaScript?
+
+Reason 1 — Hardware: Computers had only 4–6 MB of RAM. Other languages needed heavy compilers and runtimes. JavaScript was designed to be lightweight.
+
+Reason 2 — Complexity: HTML and CSS were easy and forgiving. If web developers saw C++ syntax back then with no learning resources, most would have quit. JS was made simple — even forgiving (no semicolons required).
+
+Reason 3 — Security: C++ is a low-level language. It can access your system and manipulate files and folders. That's dangerous for the web. JavaScript was created with limited access — only keyboard and mouse. Anything else needs permission.
+
+Reason 4 — Engines: JS is browser-based. Every browser has an engine (Google has V8) — C++ code already compiled to machine code — that takes JS as input and shows output.
+
+Reason 5 — Node.js: There was still a problem: how to run JS outside the browser? Node.js was created — an open-source, cross-platform JavaScript runtime. Now we can run JS anywhere.
+
+One Question I Still Have
+V8 is written in C++ and compiled to machine code. Machine code is different for each system. Since machine code runs directly on the CPU without a compiler, could we create other "engines" (like V8) for different languages to run without compilers in editors like VS Code?
+
+🔥 Bonus: Interpreter vs Compiler (what I understood)
+Type	How it works
+Interpreter	Line by line — reads line 1 → output, line 2 → output, error on line 3 → stops
+Compiler	Reads entire code first — if no errors, converts everything to machine code at once
