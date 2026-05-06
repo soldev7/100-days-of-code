@@ -1,5 +1,6 @@
-# Day 1: Intro to JavaScript
 
+# Day 1: Intro to JavaScript
+<img width="1672" height="941" alt="jsc++" src="https://github.com/user-attachments/assets/a478eae1-7899-4f9c-ae0e-9acf231a3c40" />
 ## Things I Learned Today
 
 1. **Why JavaScript was created** — At the time, most programming languages had complex syntax. Web developers only knew HTML and CSS, and learning resources were very limited. JS was made to be easy and forgiving.
