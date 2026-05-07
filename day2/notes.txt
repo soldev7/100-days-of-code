@@ -1,0 +1,38 @@
+Day 2: Variables & Data Types (how variables are being stored)
+Things I Learned Today
+There are three ways to create variable: let, const and var where var is the old way of creating var, other two are new ways to create var.
+
+var only respects function scope and global scope. let and const respects block scope.
+
+Data types are the type of data the variable is holding.
+
+Two types of data types: primitive (numbers, string, null, bigInt, undefined, symbols, boolean) and non-primitive (arrays, objects, functions, etc.)
+
+Primitive data types make new memory location on every change or initialization or update cause they are immutable. Non-primitive data types are mutable means they are changeable/referance value.
+
+Analogy: Primitive shifts pointer when reassign on same variable. Non-primitive points at the same memory location.
+
+1 Thing That Blew My Mind
+null is an object which is a legacy bug and JS was created in 10 days.
+
+
+
+What I'd Explain to a Beginner
+There are three ways to create a variable:
+
+const = one time store, can't update the value
+
+let = can reassign a value
+
+var = old way, only respects function scope and global scope
+
+Data types are the type of data a variable is holding. It can either be primitive or non-primitive.
+
+Non-primitives are all objects and mutable. Primitives are immutable.
+
+Non-primitive points at the same memory location — means creates shallow copy, change in one changes in main one too.
+
+Primitive: when something is reassigned, it gets stored in another memory location.
+
+One Question I Still Have
+How to make a real copy of non-primitive that doesn't affect the original?
